@@ -23,4 +23,4 @@ If you want to have a better undertanding of the topics above, visit the [React 
 npm install
 npm start
 ```
-Access: [localhost:8080](http://localhost:8080)
+In yout browser, access: [localhost:8080](http://localhost:8080)
