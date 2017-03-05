@@ -1,11 +1,13 @@
 import React from 'react'
-import {Link} from 'react-router'
+import {Link, IndexLink} from 'react-router'
 import NavLink from './NavLink'
+import Home from './Home'
 
 export default ({children}) => (
     <div>
-        <h1>People that make me good</h1>
+        <h1>Birds of a feather flock together</h1>
         <ul role="nav">
+            <li><NavLink to="/" onlyActiveOnIndex={true}>Home</NavLink></li>
             <li><NavLink to="/family">Family</NavLink></li>
             <li><NavLink to="/friends">Friends</NavLink></li>
         </ul>
