@@ -16,3 +16,11 @@ Simple project created to practice some important features when we are using Rea
 ## References
 
 If you want to have a better undertanding of the topics above, visit the [React Router Tutorial](https://github.com/reactjs/react-router-tutorial)
+
+## Run
+
+```node
+npm install
+npm start
+```
+Access: [localhost:8080](localhost:8080)
