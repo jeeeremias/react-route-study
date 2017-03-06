@@ -18,7 +18,7 @@ const Friends = ({children}, context) => {
                 <li><NavLink to="/friends/Lucas">Lucas</NavLink></li>
                 <li><NavLink to="/friends/Carlos">Carlos</NavLink></li>
                 <li><NavLink to="/friends/Luiza">Luiza</NavLink></li>
-                <li>Let's became friends!
+                <li>Let's become friends!
                     <form onSubmit={handleSubmit}>
                         <input type="text" placeholder="your name"/>{' '}
                         <button type="submit">Add friend</button>
